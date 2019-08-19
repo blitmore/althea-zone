@@ -6,7 +6,7 @@
                 "type": "cosmos-sdk/MsgCreateValidator",
                 "value": {
                     "description": {
-                        "moniker": "asoltys",
+                        "moniker": "qwuke",
                         "identity": "",
                         "website": "",
                         "details": ""
@@ -17,9 +17,9 @@
                         "max_change_rate": "0.010000000000000000"
                     },
                     "min_self_delegation": "1",
-                    "delegator_address": "cosmos1z6s8unktt0em3cnuw6dakewufmeap0y6m964sv",
-                    "validator_address": "cosmosvaloper1z6s8unktt0em3cnuw6dakewufmeap0y673wqul",
-                    "pubkey": "cosmosvalconspub1zcjduepqfecmyp3g2k3ulmsfzmcue5jqd03al2tlgv6twnllxh2ur3l2mrpsmta4vg",
+                    "delegator_address": "cosmos16j89g35plvs5dsj7hkkjc3q3jhfupswr3h9mu8",
+                    "validator_address": "cosmosvaloper16j89g35plvs5dsj7hkkjc3q3jhfupswr5r3ws5",
+                    "pubkey": "cosmosvalconspub1zcjduepqxr5s7vfts0ys6z986akl3m4hr4vrzqzj2j3pf0tu2hugxkgu4cvscekrmp",
                     "value": {
                         "denom": "ualtg",
                         "amount": "100000000"
@@ -35,11 +35,11 @@
             {
                 "pub_key": {
                     "type": "tendermint/PubKeySecp256k1",
-                    "value": "A0FOeiwJzs9jEVxKuKTLEt0FvvQlMbmuVylo2K8E5DHz"
+                    "value": "AlhmoKbjdA+fa8QmvAXTzE5jv5jrbUMEqRFtiE4OU3Cb"
                 },
-                "signature": "qFtq3XIHHurXM9APwtXgMcCjipol0tE2o4LIzns4MPAtiVM4q3xjvEquRF16MIxZjkwdXgEmnAUArR56BaEyrg=="
+                "signature": "FbzR+oxVowGSOLE/KD3wbWaEVVFbODUIxMBIM8Nhgs99U2zs1trxXK6yqgapv1soNUIT3ECbh+A3IUlkcNMCNg=="
             }
         ],
-        "memo": "904cc4034006d076cecae593e35fe80270fcc7d6@validator.coinos.io:26656"
+        "memo": "ae5a9d31f16ac7037d46bc1ff0e59293a51faff6@18.221.129.123:26656"
     }
 }
