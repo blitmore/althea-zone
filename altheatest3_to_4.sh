@@ -157,7 +157,7 @@ done
 echo " STEP3 -- update genesis.json from altheatest3 to altheatest4"
 
 ## UNCOMMENT when you are really ready to go
-#${python3} altheatest3-to-altheatest4.py altheatest3_genesis_export.json > ${genesis_file}
+#${python} altheatest3-to-altheatest4.py altheatest3_genesis_export.json > ${genesis_file}
 
 
 
@@ -175,4 +175,9 @@ echo " STEP4 -- restart gaiad on altheatest4"
 (gaiad start --p2p.persistent_peers "20d682e14b3bb1f8dbdb0492ea5f401c0c088163@198.245.51.51:26656" &>> ${HOME}/gaiad.log) &
 gaiad_pid=`ps -C gaiad --no-header -o pid`
 echo "  gaiad running at pid ${gaiad_pid}"
+
+if ! [ -z ${gaiad_pid} ]
+then
+    mv ${0} ${0}_maybeSuceeded
+fi
 
